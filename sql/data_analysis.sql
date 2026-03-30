@@ -121,8 +121,7 @@ FROM products p
 INNER JOIN order_items oi ON p.product_id = oi.product_id
 INNER JOIN order_reviews ow ON oi.order_id = ow.order_id
 GROUP BY p.product_category_name
-ORDER BY avg_score ASC
-LIMIT 3;
+ORDER BY avg_score ASC;
 
 -- 14. Do sellers with longer shipping times receive worse ratings?
 CREATE VIEW q_14 AS
