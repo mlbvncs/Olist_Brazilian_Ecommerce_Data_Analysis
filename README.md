@@ -5,3 +5,15 @@ Olist, a platform that connects retailers of various sizes to the largest market
 - Data Analysis (SQL): Organize the data into a structured format in MySQL, defining primary and foreign keys across the 8 tables. Execute 16 queries to answer the defined business questions, covering metrics for logistics, sales, customer satisfaction, and seller performance;
 - Visualization and Insights (Power BI): Organize the data into a structured format in MySQL, defining primary and foreign keys across the 8 tables. Execute 16 queries to answer the defined business questions, covering metrics for logistics, sales, customer satisfaction, and seller performance — each query exported as a View for direct consumption by Power BI;
 - Reporting and Presentation: Write a clear project report summarizing the main findings and business recommendations.
+### Recommended order for reading/consulting the folders:
+1. data/raw/;
+2. notebooks/explorations.ipynb;
+3. notebooks/etl.ipynb;
+4. data/processed/;
+5. sql/restrictions.sql
+6. sql/data_analysis.sql;
+7. powerbi/...; (a fazer)
+8. analysis/analysis.pdf. (a fazer)
+### Translation
+Access the translation folder to view the Portuguese (Brazil) translation.
+### Medium post

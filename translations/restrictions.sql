@@ -1,4 +1,4 @@
--- Creating primary keys (PK)
+-- Criação de chaves primárias (PK)
 ALTER TABLE orders ADD PRIMARY KEY (order_id);
 ALTER TABLE customers ADD PRIMARY KEY (customer_id);
 ALTER TABLE sellers ADD PRIMARY KEY (seller_id);
@@ -8,7 +8,7 @@ ALTER TABLE order_reviews ADD PRIMARY KEY (review_id);
 ALTER TABLE order_payments ADD PRIMARY KEY (order_id, payment_sequential);
 ALTER TABLE category_translation ADD PRIMARY KEY (product_category_name);
 
--- Creating foreign keys (FK)
+-- Criação de chaves estrangeiras (FK)
 -- orders → customers
 ALTER TABLE orders ADD FOREIGN KEY (customer_id) REFERENCES customers(customer_id);
 -- order_items → orders
