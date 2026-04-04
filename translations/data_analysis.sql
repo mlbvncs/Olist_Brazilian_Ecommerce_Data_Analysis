@@ -81,7 +81,7 @@ ORDER BY orders DESC, renevue DESC;
 -- 9. Qual a forma de pagamento mais utilizada e qual gera maior ticket médio?
 CREATE VIEW q_9 AS
 SELECT op.payment_type,
-       COUNT(oP.order_id) AS orders,
+       COUNT(op.order_id) AS orders,
        ROUND(AVG(op.payment_value), 2) AS avg_payment_value
 FROM order_payments op
 GROUP BY op.payment_type
