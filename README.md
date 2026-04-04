@@ -10,9 +10,9 @@ Olist, a platform that connects retailers of various sizes to the largest market
 2. notebooks/explorations.ipynb;
 3. notebooks/etl.ipynb;
 4. data/processed/;
-5. sql/restrictions.sql
+5. sql/restrictions.sql;
 6. sql/data_analysis.sql;
-7. powerbi/...; (a fazer)
+7. powerbi/olist_brazilian_ecommerce;
 8. analysis/analysis.pdf. (a fazer)
 ### Translation
 Access the translation folder to view the Portuguese (Brazil) translation.
