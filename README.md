@@ -13,7 +13,7 @@ Olist, a platform that connects retailers of various sizes to the largest market
 5. sql/restrictions.sql;
 6. sql/data_analysis.sql;
 7. powerbi/olist_brazilian_ecommerce;
-8. analysis/analysis.pdf. (a fazer)
+8. analysis/analysis.pdf.
 ### Translation
 Access the translation folder to view the Portuguese (Brazil) translation.
 ### Medium post
