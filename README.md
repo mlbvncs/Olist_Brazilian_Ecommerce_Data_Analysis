@@ -16,4 +16,3 @@ Olist, a platform that connects retailers of various sizes to the largest market
 8. analysis/analysis.pdf.
 ### Translation
 Access the translation folder to view the Portuguese (Brazil) translation.
-### Medium post
